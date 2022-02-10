@@ -1,0 +1,24 @@
+.advertising {
+    img{
+        width: 60.625rem;
+        height: 15.625rem;
+        margin: 1.641rem auto;
+    }
+
+    &-subway{
+        img{
+            object-fit: cover;
+            width: 21rem;
+            height: 17.5rem;
+        }
+    }
+    &-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .advertising-mobile {
+        display: block;
+    }
+}

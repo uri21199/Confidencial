@@ -1,0 +1,326 @@
+// text color
+.text-white {color: $white;}
+.text-black {color: $black;}
+.text-gray-1 {color: $gray-1;}
+.text-gray-2 {color: $gray-2;}
+.text-gray-3 {color: $gray-3;}
+.text-blue-1 {color: $blue-1;}
+.text-blue-2 {color: $blue-2;}
+.text-blue-3 {color: $blue-3;}
+.text-blue-4 {color: $blue-4;}
+.text-blue-5 {color: $blue-5;}
+.text-blue-6 {color: $blue-6;}
+.text-green-1 {color: $green-1;}
+.text-green-2 {color: $green-2;}
+.text-yellow-1 {color: $yellow-1;}
+.text-red-1 {color: $red-1;}
+
+// background color
+.bg-white {background-color: $white;}
+.bg-black {background-color: $black;}
+.bg-gray-1 {background-color: $gray-1;}
+.bg-gray-2 {background-color: $gray-2;}
+.bg-gray-3 {background-color: $gray-3;}
+.bg-gray-4 {background-color: $gray-4;}
+.bg-blue-1 {background-color: $blue-1;}
+.bg-blue-2 {background-color: $blue-2;}
+.bg-blue-3 {background-color: $blue-3;}
+.bg-blue-4 {background-color: $blue-4;}
+.bg-blue-5 {background-color: $blue-5;}
+.bg-blue-6 {background-color: $blue-6;}
+.bg-green-1 {background-color: $green-1;}
+.bg-green-2 {background-color: $green-2;}
+.bg-yellow-1 {background-color: $yellow-1;}
+.bg-red-1 {background-color: $red-1;}
+
+// border
+.border-white {border-color: $white;}
+.border-black {border-color: $black;}
+.border-gray-1 {border-color: $gray-1;}
+.border-gray-2 {border-color: $gray-2;}
+.border-gray-3 {border-color: $gray-3;}
+.border-blue-1 {border-color: $blue-1;}
+.border-blue-2 {border-color: $blue-2;}
+.border-blue-3 {border-color: $blue-3;}
+.border-blue-4 {border-color: $blue-4;}
+.border-blue-5 {border-color: $blue-5;}
+.border-blue-6 {border-color: $blue-6;}
+.border-green-1 {border-color: $green-1;}
+.border-green-2 {border-color: $green-2;}
+.border-yellow-1 {border-color: $yellow-1;}
+.border-red-1 {border-color: $red-1;}
+.border-red-left {border-left: 3px solid $red-1;}
+.border-d-gray-right {border-right: 1px solid $gray-5; border-right-width: 10px;}
+.border-gray-normal {border-bottom: 1px solid $gray-5;}
+
+//fonts
+.font-sm {font-size: $font-sm;}
+.font-products {font: normal normal 600 16px/18px Gotham;}
+.font-products-info {font: normal normal normal 15px/18px Work Sans; a {color: #005077; text-decoration: none; font-weight: 600;}}
+.font-900 {font-weight: 900;}
+.font-600 {font-weight: 600;}
+.font-36 {font: normal normal bold 36px/38px Gotham !important;}
+.font-28 {font: normal normal 900 28px/31px Gotham;}
+.font-26 {font: normal normal bold 20px/26px Gotham;}
+.font-24 {font: italic normal 600 24px/28px Work Sans;}
+.font-24-bold {font: normal normal bold 24px/26px Gotham !important;}
+.font-23-m-20 {font: normal normal normal 23px/27px Work Sans;}
+.font-22 {font: italic normal 600 22px/25px Work Sans;}
+.font-22-bold {font: normal normal bold 22px/24px Gotham;}
+.font-22-normal {font: normal normal 600 22px/24px Work Sans;}
+.font-22-m-25 {font: normal normal normal 22px/25px Work Sans !important;}
+.font-22-b-25 {font: normal normal 600 22px/25px Work Sans;}
+.font-21-m-18 {font: normal normal normal 21px/25px Work Sans;}
+.font-19-b-23 {font: normal normal 600 19px/23px Work Sans;}
+.font-19-m-16 {font: normal normal normal 19px/23px Work Sans;}
+.font-18-medium {font: normal normal medium 18px/21px Work Sans;}
+.font-18-b-22 {font: normal normal bold 18px/22px Gotham !important;}
+.font-17-m-19 {font: normal normal normal 17px/19px Work Sans;}
+.font-16-medium {font: normal normal 600 16px/19px Work Sans !important;}
+.font-16-normal {font: normal normal normal 16px/19px Work Sans;}
+.font-16-bold {font: normal normal bold 16px/16px Work Sans;}
+.font-16-n-16 {font: normal normal normal 16px/16px Work Sans;}
+.font-16-m-20 {font: normal normal normal 16px/20px Work Sans;}
+.font-16 {font: normal normal bold 16px/18px Gotham;}
+.font-15-b-17 {font: normal normal bold 15px/17px Gotham;}
+.font-15 {font: normal normal normal 15px/17px Work Sans;}
+.font-15-b-18 {font: normal normal 600 15px/18px Work Sans !important;}
+.font-14-b-16 {font: normal normal bold 14px/16px Work Sans !important;}
+.font-14 {font: normal normal normal 14px/16px Work Sans;}
+.font-13 {font: normal normal 600 13px/15px Work Sans;}
+.font-13-normal {font: normal normal normal 13px/15px Work Sans !important;}
+.font-10-medium {font: normal normal medium 10px/11px Work Sans;}
+.font-10 {font: normal normal 500 10px/11px Work Sans; padding: 6px 0px 6px 0px !important;}
+.font-ws {font-family: Work Sans;}
+
+//margin - padding
+.p-footer-logo {padding-left: 5.5px;}
+.ms-neg-5 {margin-left: -5px;}
+.ms-neg-15 {margin-left: -15px;}
+.mt-neg-20 {margin-top: -20px;}
+.mart-desktop-30 {margin-top: 30px;}
+.mart-desktop-60 {margin-top: 60px;}
+.mart-14 {margin-top: 14px;}
+.mart-n14 {margin-top: -14px;}
+.marb-desktop-30 {margin-bottom: 30px;}
+.mar-menu {margin-top: 5.5px;}
+.pb-4 {padding-bottom: 1.4rem !important;}
+.marr-8 {margin-right: 8px;}
+.marx-10 {margin: 0 10px;}
+
+//details
+.subs{.font-products {margin-bottom: 5px !important;}}
+.subs-news {img {width: auto !important;}}
+.news-info {margin: 0 0 0 10px !important;}
+.diple-separator {font-size: .75rem;}
+.article-before {margin: 0; color: $gray-5;}
+.article-m-before {display: none; color: $gray-5;}
+.article-img.img-container.rounded.m-auto.mt-4 {width: 45.5rem; height: 26.25rem;}
+.w-90 {width: 90%;}
+.w-85 {width: 85%;}
+.w-80-90 {width: 80%;}
+.w-70-100 {width: 70%;}
+.wid-75-100 {width: 75%;}
+.wid-50-100 {width: 50%;}
+.molina-single-caric {width: 43.75rem; height: 33.875rem;}
+.molina-single-histo {width: 26.125rem; height: 33.875rem;}
+.molina-histo-title {max-width: 28.125rem;}
+.more-histo {width: 20rem; height: 25.938rem;}
+.nicas-img {width: 21.875rem; height: 12.188rem;}
+.youtube-news {flex-direction: column;}
+.caric-items {.img-container {width: 21.875rem; height: 12.5rem;}}
+.font-400 {font-weight: 400 !important;}
+.img-container.me-3 {margin-right: 0 !important;}
+.nav-item.mx-1 {margin: 0 !important;}
+.m-2.d-flex.flex-column.justify-content-center.align-items-center {margin: 9px 14px 9px 0 !important;}
+.d-flex.mx-2.justify-content-center.align-items-center {margin: 0 13px 0 0 !important;}
+.btn-close-sidebar {border:none; background-color: #fff; margin-top: 3px;}
+.btn-close-modal {position: absolute; right: 10px; top: 10px; border: none; background-color: #fff;}
+.radius-5 {border-radius: 5px !important;}
+.middle-article {height: 6.625rem !important; width: 160px !important;}
+
+@media screen and (min-width: 999px) and (max-width: 1200px) {
+    .nav-item.mx-1 {margin-right: .25rem !important;}
+    .img-container.me-3 {margin-right: 1rem !important;}
+    .nicas-img {width: 17rem; height: 10rem; img {min-width: 10rem; min-height: 5.5rem;}}
+}
+
+@media screen and (max-width: 999px) {
+    .nicas-img {width: 10rem; height: 5.5rem; img {min-width: 10rem; min-height: 5.5rem;}}
+    .middle-article {height: 5.625rem !important; width: 100px !important;}
+}
+
+@media screen and (max-width: 767px) {
+    .w-80-90 {width: 95%;}
+    .w-70-100 {width: 95%;}
+    .mb-2.pe-5.me-4.m-md-0 {text-align: center; padding-left: 20px;}
+    .youtube-news {flex-direction: row; div {margin: 0 10px;}}
+    .nicas-title {width: 50%;}
+    .subs-news {img {width: 60px !important;}}
+    .news-info {margin: 0 10px 0 10px !important;}
+    .article-img.img-container.rounded.m-auto.mt-4 {width: auto; height: auto; margin-bottom: 0 !important;}
+    .histo-div {width: 50% !important;}
+    .caric-card {
+        padding: 0 .5rem .5rem .5rem !important;
+    }
+    .caric-items {
+        display: flex;
+        margin-top: 10px;
+        .img-container {
+            width: 8.875rem; 
+            height: 11.5rem;
+        }
+        .caric-title {
+            margin-left: 15px;
+        }
+        h2 {
+            margin-top: 0 !important;
+        }
+        &.histo {
+            flex-direction: column;
+        }
+    }
+    .tv-article {width: 21.25rem; height: 12rem; margin: auto;}
+    .molina-single-caric {width: 20rem; height: 15.5rem;}
+    .molina-single-histo {width: 20rem; height: 25.938rem;}
+    .wid-50-100 {width: 100%;}
+    .wid-75-100 {width: 100%;}
+    .wid-50m {width: 50% !important;}
+    .mart-desktop-30 {margin-top: 20px;}
+    .marb-desktop-30 {margin-bottom: 0;}
+    .new-columns {flex-direction: column;}
+    .font-19-m-16 {
+        font: normal normal normal 16px/19px Work Sans;
+    }
+    .font-21-m-18 {
+        font: normal normal normal 18px/21px Work Sans !important;
+    }
+    .font-23-m-20 {
+        font: normal normal normal 20px/24px Work Sans;
+    }
+    .font-20-m-16 {
+        font: normal normal bold 16px/20px Gotham !important;
+    }
+    .font-22-m-24 {
+        font: normal normal bold 22px/24px Gotham !important;
+    }
+    .font-18-m-20 {
+        font: normal normal bold 18px/20px Gotham !important;
+    }
+    .font-18-b-21 {
+        font: italic normal 600 18px/21px Work Sans !important;
+    }
+    .font-18-m-22 {
+        font: normal normal bold 18px/22px Gotham !important;
+    }
+    .font-18-n-20 {
+        font: normal normal normal 18px/20px Gotham !important;
+    }
+    .font-28-m-30 {
+        font: normal normal bold 28px/30px Gotham !important;
+    }
+    .font-24-m-26 {
+        font: normal normal bold 24px/26px Gotham !important;
+    }
+    .font-16-m-18 {
+        font: normal normal bold 16px/18px Gotham !important;
+    }
+    .font-16-b-19 {
+        font: normal normal 600 16px/19px Work Sans !important;
+    }
+    .font-16-m-19 {
+        font: normal normal normal 16px/19px Work Sans;
+    }
+    .font-14-m-16 {
+        font: normal normal normal 14px/16px Work Sans;
+    }
+    .font-14-mb-16 {
+        font: normal normal 600 14px/16px Work Sans;
+    }
+    #first-small-title {
+        border-bottom: 1px solid $gray-3;
+    }
+    .padx-mobile-10 {
+        padding: 0 10px !important;
+    }
+    .padxb-mobile-10 {
+        padding: 0 10px 10px 10px !important;
+    }
+    .padx-mobile-20 {
+        padding: 0 20px !important;
+    }
+    .padx-mobile-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;    
+    }
+    .pady-mobile-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .pady-mobile-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .padt-mobile-0 {
+        padding-top: 0 !important;
+    }
+    .padb-mobile-10 {
+        padding-bottom: 10px !important;
+    }
+    .pad-mobile-n10 {
+        padding: -10px !important;
+    }
+    .mar-mobile-10 {
+        margin: 10px 0 0 0 !important;
+    }
+    .mar-mobile-n40 {
+        margin: -40px 0 0 0 !important;
+    }
+    .mar-mobile-n25 {
+        margin: -25px 0 0 0 !important;
+    }
+    .mar-mobile-n20 {
+        margin: -20px 0 0 0 !important;
+    }
+    .mar-mobile-20 {
+        margin: 20px 0 0 0;
+    }
+    .marb-mobile-20 {
+        margin-bottom: 20px !important;
+    }
+    .marb-mobile-0 {
+        margin-bottom: 0 !important;
+    }
+    .mary-mobile-0 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .mary-mobile-15b {
+        margin-top: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    .border-d-gray-right {
+        border: none !important;
+    }
+    .border-m-gray-bottom {
+        border-bottom: 1px solid $gray-3;
+    }
+    .article-m-before {
+        display: block; 
+        margin: 0;
+    }
+    .display-m-flex {
+        display: flex;
+    }
+    .mars-mobile-0 {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .phone-off {
+        display: none;
+    }
+    
+    .text-white.d-flex.justify-content-center.mt-4.mb-4.flex-wrap {flex-direction: column;}
+}

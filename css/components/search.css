@@ -1,0 +1,22 @@
+.input-searcher {
+  border: none;
+  background: transparent;
+  padding-left: 24px;
+  background-image: url("svg/icon-zoom.svg");
+  background-size: 16px;
+  background-color: #fff;
+  background-position-x: 95%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  margin-top: 5px;
+}
+
+.input-searcher:focus {
+  outline: 1px solid #777;
+  width: 18.938rem;
+  height: 1.75rem;
+  position: absolute;
+}

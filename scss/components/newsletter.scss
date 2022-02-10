@@ -1,0 +1,29 @@
+.newsletter {
+    background-color: $blue-2;
+    color: $white;
+    h3 {
+        font: normal normal 500 24px/26px Gotham;
+    }
+    p {
+        font: normal normal normal 16px/19px Work Sans;
+        margin: 0;
+    }
+    .btn {
+        width: 185px;
+    }
+    &-invert {
+        background-color: $white;
+        color: $black;
+        border-top: 1px solid $gray-2;
+        border-bottom: 1px solid $gray-2;
+        height: 10rem;
+
+        img{
+            background-color: $black;
+        }
+    }
+    &.bg-invert {
+        background-color: $white;
+        color: $black;
+    }
+}

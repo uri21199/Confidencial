@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden; 
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .container, section {
+        max-width: 100% !important;
+    }
+}
+
+@import './config/fonts.scss';
+@import './config/variables.scss';
+@import './config/classes.scss';
+@import './config/global.scss';
+
+@import './components/navbar.scss';
+@import './components/footer.scss';
+@import './components/header.scss';
+@import './components/article.scss';
+@import './components/diver.scss';
+@import './components/newsletter.scss';
+@import './components/buttons.scss';
+@import './components/videos.scss';
+@import './components/revista.scss';
+@import './components/advertising.scss';
+@import './components/english.scss';
+@import './components/podcast.scss';
+@import './components/special.scss';
+@import './components/member.scss';
+@import './components/subscriptions.scss';
+@import './components/modal-subs.scss';
+@import './components/sidebar.scss';
+@import './components/section.scss';
+@import './components/error.scss';
+@import './components/search.scss';
+@import './components/pagination.scss';
+@import './components/scroll-section.scss';
+
+@import './media-queries/mq.scss';

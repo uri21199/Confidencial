@@ -1,0 +1,30 @@
+.membership-program {
+    h2{
+        font-size: 1rem;
+    }
+}
+
+.archives {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h5{
+        text-align: center;
+    }
+    img{
+        width: 17.5rem;
+        min-height: 13.125rem;
+        max-height: 22.688rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .archives {
+        padding: 0 1rem;
+        justify-content: inherit;
+        
+        .collections {
+            margin-left: 1.5rem;
+        }
+    }
+}

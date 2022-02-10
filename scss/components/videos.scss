@@ -1,0 +1,79 @@
+.videos {
+    &-bg {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80.194' height='60.608' viewBox='0 0 80.194 60.608'%3E%3Crect id='Retângulo_290' data-name='Retângulo 290' width='79.944' height='60.358' transform='translate(0.125 0.125)' fill='none' stroke='%23dde5ed' stroke-miterlimit='10' stroke-width='0.25' opacity='0.3'/%3E%3C/svg%3E");
+        padding: 1.875rem;
+    }
+
+    &-tv {
+        padding-top: 1.225rem;
+    }
+
+    &-logo {
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 12px;
+        }
+        div {
+            font-family: Work Sans;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 11px;
+        }
+    }
+
+    &-principal {
+        max-width: 39.625rem;
+        img{
+            max-height: 22.307rem;
+        }
+    }
+
+    &-list {
+        img{
+            width: 10rem;
+            height: 5.953rem;
+        }
+        h2{
+            width: 16.25rem;
+            margin-left: 0.85rem;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .videos-list {
+        display: flex;
+        &::-webkit-scrollbar {
+            background-color: $black;
+            height: 5px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: $white;
+            height: 5px;
+        }
+
+        div.article-2 {
+            max-width: 253px;
+        }
+    }
+    .videos-direction {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1rem 0 0;
+        img {
+            width: 18.75rem;
+            height: 10.625rem;
+        }
+        h2 {
+            margin-top: .5rem;
+            font: normal normal bold 16px/18px Gotham !important;
+        }
+    }
+    .videos-principal {
+        display: none;
+    }
+    .mobile-on-opinion.videos-direction {
+        display: block;
+    }
+}

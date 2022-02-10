@@ -1,0 +1,36 @@
+.header {
+    &-top {
+        height: 6.25rem;
+    }
+    &-bottom {
+        border-bottom: 0.063rem solid #DDE5ED;
+        padding-bottom: 0.938rem;
+        margin-bottom: 1.75rem;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            li {
+                margin: 0 0.45rem;
+                a {
+                    font: normal normal 500 16px/19px Work Sans;
+                    color: $black;
+                    text-decoration: none !important;
+                    transition: all ease 0.15s;
+                    &:hover {
+                        color: $blue-1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header.mobile-off {
+        display: none;
+    }
+}

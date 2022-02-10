@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Confidencial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-light">
+        <div class="container">
+            <ul class="navbar-nav">
+                 <li class="nav-item marr-8">
+                    <label class="mar-menu" for="btn-menu">
+                        <img src="svg/icon-menu.svg" class="d-inline-block" />
+                    </label>
+                </li>
+                <li class="menu-logo">
+                    <a href="/">
+                        <img src="svg/confidencial-menu.svg" />
+                    </a>
+                </li>
+                <li class="nav-item marx-10">
+                    <input type="text" placeholder="Buscar..." class="input-searcher">
+                </li>
+            </ul>
+            <li class="menu-block">
+                <a href="/">
+                    <img src="svg/confidencial-menu.svg" />
+                </a>
+            </li>
+            <ul class="mobile-off navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Unite a la
+                        Membresía <span class="ms-1">·</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ps-0" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscribite
+                        al
+                        boletín</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <div class="cont-menu-header">
+                <button type="button" data-bs-dismiss="container-menu"
+                aria-label="Close" class="btn-close-sidebar ms-2"><img src="svg/close-side.svg" alt=""></button>
+                <a href="/" class="ms-5">
+                    <img src="svg/confidencial.svg" style="height: 1.25rem; width: 12.813rem;" />
+                </a>
+            </div>
+            <div class="cont-menu-body">
+                <nav>
+                    <ul class="mt-3">
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Política</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Opinión</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">PxMolina</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Nación</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Economía</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Nicas
+                                Migrantes</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20"
+                                href="#">Internacionales</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Niú</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Reporte
+                                Ciudadano</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">English</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">TV</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Radio</a></li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Especiales</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Galería</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Cultura</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Empresas</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Tecnología</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Vida & Ocio</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Deportes</a>
+                        </li>
+                        <li class="mb-2"><a class="text-body text-decoration-none font-16-m-20" href="#">Espectáculos</a></li>
+                    </ul>
+                </nav>
+                <hr class="w-90 m-auto text-blue-4">
+                <div class="cont-menu-body-special m-3">
+                    <div class="font-15-b-17 dot-menu">Lea el especial más reciente</div>
+                    <p class="mt-3 font-15">Los rehenes electorales de Daniel Ortega y Rosario Murillo</p>
+                </div>
+                <hr class="w-90 m-auto text-blue-4 mb-3">
+                <div class="social d-flex justify-content-center w-100 mb-4">
+                    <div class="d-flex me-2 justify-content-center align-items-center">
+                        <a href="#" class="p-footer-logo">
+                            <img src="svg/facebook-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/twitter-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/youtube-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/instagram-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/whastapp-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/telegram-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/spotify-side.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-2 justify-content-center align-items-center">
+                        <a href="" class="p-footer-logo">
+                            <img src="svg/briefing-side.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="options d-flex flex-wrap justify-content-center align-items-center w-100 m-auto mb-3">
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/whatsapp-footer-2.svg">
+                        <p class="font-16-n-16 mt-2">Alertas</p>
+                    </div>
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/mail-side.svg" alt="">
+                        <p class="font-16-n-16 mt-2">Boletines</p>
+                    </div>
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/test-politico-side.svg" alt="">
+                        <p class="font-16-n-16 mt-1">Test Político</p>
+                    </div>
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/carta-sm.svg" alt="">
+                        <p class="font-16-n-16 mt-1">Membresía</p>
+                    </div>
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/mail-side.svg" alt="">
+                        <p class="font-16-n-16 mt-1">Donaciones</p>
+                    </div>
+                    <div class="m-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="svg/anuncios-side.svg" alt="">
+                        <p class="font-16-n-16 mt-1">Anuncios</p>
+                    </div>
+                </div>
+                <!-- Publicidad -->
+                <div class="bg-blue-6 my-2 pb-4">
+                    <p class="text-uppercase text-gray-2 font-10 py-1 text-center mb-0">Anuncio</p>
+                    <div>
+                        <img src="img/descarga.jpg" alt="" class="m-auto">
+                    </div>
+                </div>
+                <!-- /Publicidad -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Suscripción -->
+    <div class="subs-mobile">
+        <ul class="navbar-nav ml-auto flex-row justify-content-center align-items-center py-1">
+            <li class="nav-item mx-2">
+                <a class="nav-link font-13" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Unite a la
+                    Membresía</a>
+            </li>
+            <li class="text-gray-1">·</li>
+            <li class="nav-item mx-2">
+                <a class="nav-link font-13" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscribite al
+                    boletín</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Suscripción-->
+
+    <!-- titulo -->
+    <section class="mt-md-5">
+        <div class="container">
+            <div class="article-label title-first font-28 dot pt-md-3 mt-md-4 mb-1 d-flex align-items-center">
+                <h3 class="font-18-n-20">PXMOLINA</h3>
+                <p class="diple-separator text-gray-2 mt-2 mx-2">></p>
+                <h3 class="font-18-n-20">CARICATURAS</h3>
+            </div>
+        </div>
+    </section>
+    <!-- /titulo -->
+    <!-- mensaje principal -->
+    <section>
+        <div class="container px-md-5 pb-3 wid-75-100">
+            <div class="diver-col d-flex flex-column justify-content-between bg-blue-5 p-3">
+                <div class="rounded h-100">
+                    <article class="article-1 article-1-section">
+                        <a href="#">
+                            <div class="img-container mb-3 rounded w-100 molina-single-caric">
+                                <img src="img/presos.jpg" alt="" style="width: 100%; height: 100%;">
+                            </div>
+                            <h2 class="mt-4 font-18-m-20">Pasó el 11 de septiembre, pero para los nicas el terror continúa</h2>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <p class="text-gray-2 font-13-normal">6 de septiembre, 2021</p>
+                                <p>Share</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /mensaje principal -->
+    <hr class="article-before mt-4">
+    <!-- Caricaturas -->
+    <section>
+        <div class="container py-4">
+            <div class="d-flex justify-content-between">
+                <div class="article-label font-18 dot title-section font-16-m-18">
+                    Más Caricaturas
+                </div>
+            </div>
+            <div class="row diver-row scroll-section">
+                <div class="col-md-4 d-flex flex-column justify-content-between scroll-sect-item-3">
+                    <div class="rounded h-100 bg-blue-6 p-3">
+                        <article class="article-2">
+                            <a href="#">
+                                <div class="img-container mb-3 rounded w-100"
+                                    style="width: 21.875rem; height: 12.5rem;">
+                                    <img src="img/presos.jpg" alt="" style="width: 100%; height: 100%;">
+                                </div>
+                                <h2 class="mt-4 font-16-m-18">Los “centinelas de la paz” de la dictadura</h2>
+                                <p class="text-gray-2 mt-3 font-13-normal">6 de septiembre, 2021</p>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between scroll-sect-item-3">
+                    <div class="rounded h-100 bg-blue-6 p-3">
+                        <article class="article-2">
+                            <a href="#">
+                                <div class="img-container mb-3 rounded w-100"
+                                    style="width: 21.875rem; height: 12.5rem;">
+                                    <img src="img/presos.jpg" alt="" style="width: 100%; height: 100%;">
+                                </div>
+                                <h2 class="mt-4 font-16-m-18">Luces encendidas</h2>
+                                <p class="text-gray-2 mt-3 font-13-normal">6 de septiembre, 2021</p>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-between scroll-sect-item-3">
+                    <div class="rounded h-100 bg-blue-6 p-3">
+                        <article class="article-2">
+                            <a href="#">
+                                <div class="img-container mb-3 rounded w-100"
+                                    style="width: 21.875rem; height: 12.5rem;">
+                                    <img src="img/presos.jpg" alt="" style="width: 100%; height: 100%;">
+                                </div>
+                                <h2 class="mt-4 font-16-m-18">El menú del Chipote</h2>
+                                <p class="text-gray-2 mt-3 font-13-normal">6 de septiembre, 2021</p>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Caricaturas -->
+    <hr class="article-before m-auto w-80-90">
+    <!-- Sobre el autor -->
+    <section>
+        <div class="container py-4">
+            <div class="d-flex justify-content-between">
+                <div class="article-label font-18 dot title-section font-16-m-18">
+                    Sobre el autor
+                </div>
+            </div>
+            <div class="rounded h-100 mt-4 m-auto w-75">
+                <div class="d-flex flex-column align-items-center justify-content-center bg-blue-5 pb-3">
+                    <div class="img-container rounded-circle" style="height: 8.563rem; width: 8.563rem; margin-top: -2rem;">
+                        <img src="img/download.png" />
+                    </div>
+                    <div class="text-center px-3 pt-3">
+                        <h5 class="mt-3 font-24-bold font-18-m-20">PxMolina</h5>
+                        <p>Periodista nicaragüense. Director de Esta Semana y Confidencial, un sitio web de noticias y publicación semanal que combina el periodismo de investigación y el análisis de la actualidad.</p>
+                        <p>Ganador de los premios María Moors Cabot, y Ortega y Gasset.</p>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center w-100 mobile-on" style="margin-top: -15px;">
+                    <div class="d-flex mx-3 ms-2 justify-content-center align-items-center">
+                        <a href="">
+                            <img src="svg/twitter-autor.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-3 ms-2 justify-content-center align-items-center">
+                        <a href="">
+                            <img src="svg/facebook-autor.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex mx-3 ms-2 justify-content-center align-items-center">
+                        <a href="">
+                            <img src="svg/twitter-autor.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Sobre el autor -->
+    <hr class="article-before m-auto w-80-90">
+    <!-- Portada -->
+    <section class="mart-desktop-30 mt-4">
+        <div class="container pt-1 pb-md-5 pb-sm-0">
+            <div class="article-label dot title-section font-18">En portada</div>
+            <div class="row diver-row mt-3">
+                <div
+                    class="col-sm-12 col-md-4 padb-mobile-10 diver-col d-flex flex-column justify-content-between border-d-gray-right">
+                    <article class="article-2">
+                        <a href="#">
+                            <div class="article-label font-14 mobile-off">Política</div>
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img-container rounded" style="width: 10rem; height: 6.875rem">
+                                        <img src="img/oea.jpg" class="rounded" style="width: 100%; height: 100%;" />
+                                    </div>
+                                </div>
+                                <div class="ps-3">
+                                    <div class="article-label font-14 mobile-on">Política</div>
+                                    <h2>OEA condena con 26 votos el arresto de opositores y exige su liberación
+                                        inmediata</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <hr class="article-m-before mb-2 m-auto w-80-90">
+                <div
+                    class="col-sm-12 col-md-4 padb-mobile-10 diver-col d-flex flex-column justify-content-between border-d-gray-right">
+                    <article class="article-2">
+                        <a href="#">
+                            <div class="article-label font-14">EMERGENCIA CORONAVIRUS</div>
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img-container rounded mobile-off"
+                                        style="width: 10rem; height: 6.875rem">
+                                        <img src="img/minsa.jpg" class="rounded" style="width: 100%; height: 100%;" />
+                                    </div>
+                                </div>
+                                <div class="ps-md-3">
+                                    <h2>Covid-19 en ascenso: Minsa admite más de 200 contagios en la última semana</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <hr class="article-m-before mb-2 m-auto w-80-90">
+                <div class="col-sm-12 col-md-4 padb-mobile-10 diver-col d-flex flex-column justify-content-between">
+                    <article class="article-2">
+                        <a href="#">
+                            <div class="article-label font-14">POLÍTICA</div>
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img-container rounded mobile-off"
+                                        style="width: 10rem; height: 6.875rem">
+                                        <img src="img/felix.jpg" class="rounded" style="width: 100%; height: 100%;" />
+                                    </div>
+                                </div>
+                                <div class="ps-md-3">
+                                    <h2>Victoria Cárdenas y Berta Valle exigen ver a Juan Sebastián Chamorro y Félix
+                                        Maradiaga</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /portada -->
+
+    <!-- Publicidad -->
+    <section class="bg-blue-6 advertising-last mb-md-5 mt-1 pb-4">
+        <p class="text-uppercase text-gray-2 font-10 py-1 text-center mb-0">Anuncio</p>
+        <div>
+            <img src="img/970x250-starbucks.jpg" alt="" class="m-auto">
+        </div>
+    </section>
+    <!-- /Publicidad -->
+
+    <!--Primer footer-->
+    <section class="mar-mobile-20">
+        <div class="row subs">
+        <div class="col-md-6 col-sm-12 d-flex subs-news">
+            <img src="svg/alertas.svg" alt="">
+            <div class="news-info">
+                <p class="font-products">Alertas informativas</p>
+                <p class="font-products-info">Suscribite a las alertas informativas de Confidencial en <a
+                        href="#">WhatsApp</a> y <a href="#">Telegram</a>.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex subs-news">
+            <img src="svg/boletines.svg" alt="">
+            <div class="news-info">
+                <p class="font-products">Boletines</p>
+                <p class="font-products-info">Lo mejor de nuestra cobertura noticiosa en tu correo electrónico.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex subs-news">
+            <img src="svg/anuncios.svg" alt="">
+            <div class="news-info">
+                <p class="font-products">Anuncios</p>
+                <p class="font-products-info">Obtené una propuesta comercial de acuerdo a tus objetivos y
+                    presupuesto.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex subs-news">
+            <img src="svg/test-politico.svg" alt="">
+            <div class="news-info">
+                <p class="font-products">Test Político</p>
+                <p class="font-products-info">Explorá tus ideas sobre nuestra política, economía y sociedad con
+                    nuestro Test Político.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- /Primer footer -->
+    <footer class="w-100 h-100 p-4 mt-2 container-fluid">
+        <img src="svg/confidencial-footer.svg" alt="" class="d-flex m-auto">
+
+        <nav class="text-white d-flex justify-content-center mt-4 mb-4 flex-wrap">
+            <a href="#" class="mx-3 p-0 text-white text-decoration-none text-center">Acerca de
+                nosotros</a>
+            <a href="#"
+                class="mx-3 p-0 text-white text-decoration-none text-center">Contacto</a>
+            <a href="#" class="mx-3 p-0 text-white text-decoration-none text-center">Política
+                de privacidad</a>
+            <a href="#"
+                class="mx-3 p-0 text-white text-decoration-none text-center">Condiciones de
+                uso</a>
+        </nav>
+
+        <nav class="d-flex justify-content-center w-100 mb-4">
+            <a href="" class="mx-2">
+                <img src="svg/facebook-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/twitter-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/youtube-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/instagram-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/whatsapp-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/telegram-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/spotify-footer.svg" alt="">
+            </a>
+            <a href="" class="mx-2">
+                <img src="svg/briefing-footer.svg" alt="">
+            </a>
+        </nav>
+        <p class="text-white d-flex justify-content-evenly font-13-normal">
+            © 1996-2021 Confidencial
+        </p>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Modal suscripcion-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog rounded">
+            <div class="modal-content">
+                <div>
+                    <button type="button" class="btn-close modal-btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body mt-4">
+                    <div class=" d-flex align-items-center ">
+                        <img src="svg/boletines-md.svg" alt="">
+                        <h5 class="mx-3 font-26">Las noticias del día en tu correo</h5>
+                    </div>
+                    <p class="mt-3 font-14">Recibí lo mejor de nuestra cobertura periodística todos los días, a las 8:00
+                        am.</p>
+                    <form action="" class="d-flex flex-column modal-form-subs">
+                        <input class="mt-2" type="text" placeholder="Nombre">
+                        <input class="mt-3" type="text" placeholder="Apellido">
+                        <input class="mt-3" type="text" placeholder="Correo electrónico">
+                    </form>
+                    <button class="btn-rounded modal-btn-subs mt-3 text-uppercase">Suscribirme</button>
+                    <p class="mt-3 font-13">Estoy de acuerdo con las <a class="text-body fw-bold text-decoration-none"
+                            href="#">Condiciones de uso</a> y la <a class="text-body fw-bold text-decoration-none"
+                            href="#">Política de privacidad</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Modal suscripcion -->
+    <!-- / Modals -->
+<script src="js/index.js"></script>
+</body>
+
+</html>

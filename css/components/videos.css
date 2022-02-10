@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.videos-bg {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80.194' height='60.608' viewBox='0 0 80.194 60.608'%3E%3Crect id='Retângulo_290' data-name='Retângulo 290' width='79.944' height='60.358' transform='translate(0.125 0.125)' fill='none' stroke='%23dde5ed' stroke-miterlimit='10' stroke-width='0.25' opacity='0.3'/%3E%3C/svg%3E");
+  height: 100px;
+}

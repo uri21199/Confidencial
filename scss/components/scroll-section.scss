@@ -1,0 +1,33 @@
+.row.diver-row.scroll-section {
+    flex-wrap: nowrap !important;
+}
+
+.scroll-section {
+    overflow-x: auto;
+    padding-bottom: 15px;
+    &::-webkit-scrollbar {
+        background-color: $blue-4;
+        height: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $red-1;
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .scroll-sect-item-2 {
+        min-width: 300px;
+        max-width: 300px;   
+    }
+    
+    .scroll-sect-item-3 {
+        min-width: 120px;
+        max-width: 370px;
+    }
+    
+    .scroll-sect-item-4 {
+        min-width: 253px;
+        max-width: 253px;
+    }
+}

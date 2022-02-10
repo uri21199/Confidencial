@@ -1,0 +1,20 @@
+.donate {
+    height: 25.731rem;
+    text-align: center;
+    div{
+        margin: 10% auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            border-radius: 50%;
+        }
+    }
+    &-btn{
+        width: 6.25rem;
+        height: 2.063rem;
+        border: none;
+        border-radius: 15px;
+    }
+}

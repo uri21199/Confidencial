@@ -1,0 +1,23 @@
+footer {
+    background: #005077;
+    h6 {
+        font-family: "Montagu Slab", serif;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+        font-family: workSans-Regular;
+    }
+    div {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+        svg {
+            width: 12px;
+            height: 10px;
+            color: #005077;
+        }
+    }
+}

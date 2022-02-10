@@ -1,0 +1,24 @@
+.error-options {
+    display: flex;
+    flex-wrap: wrap;
+    columns: 2;
+    width: 110%;
+    margin: 0 auto;
+    .error-opt {
+        margin: 10px;
+        border: 1px solid $gray-3;
+        box-sizing: border-box;
+        width: 40%;
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .error-options {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .error-opt {
+        width: 100% !important;
+    }
+}

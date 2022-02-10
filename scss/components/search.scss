@@ -1,0 +1,49 @@
+.input-searcher {
+    border: none;
+    background: transparent;
+    padding-left: 15px;
+    padding-top: 0;
+    background-image: url("../svg/icon-zoom.svg");
+    background-size: 16px;
+    background-color: #fff;
+    background-position-x: center;
+    background-position-y: 7px;
+    background-repeat: no-repeat;
+    width: 0;
+    height: 1.75rem;
+    transition: all 0s;
+    z-index: 1050;
+    margin: 1.75px 10px 0 10px;
+}
+
+.input-searcher::placeholder {
+    font: normal normal normal 14px/16px Work Sans;
+}
+
+.input-searcher:focus{
+    border: 1px solid $gray-3;
+    border-radius: 5px;
+    outline: none;
+    width: 18.938rem;
+    height: 1.75rem;
+    position: absolute;
+    background-position-x: 95%;
+    background-position-y: 5px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .input-searcher:focus {
+        transform: all 0s;
+        margin-left: -18.938rem;
+        margin-top: -14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .input-searcher:focus {
+        transition: all .5s;
+        margin-left: -18.938rem;
+        margin-top: -13px;
+    }
+}

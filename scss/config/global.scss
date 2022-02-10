@@ -1,0 +1,30 @@
+body {
+    font: normal normal normal 16px/19px Work Sans;
+    color: $black;
+    padding-top: 3.25rem;
+}
+
+hr {
+    background-color: $blue-4;
+    opacity: unset;
+}
+
+img {
+    display: block;
+    border: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1110px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1110px;
+    }
+}
